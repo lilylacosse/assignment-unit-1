@@ -3,9 +3,16 @@ body {background-color: rgb(190, 130, 246);}
 /* Make the header and footer a different color from the background */
 header, footer {background-color: rgb(130, 190, 243);}
 /* Align the h1 containing your name in the center of the header*/
-h1 {position: ;}
+h1, p {text-align: center;}
+
+.center, ul {display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;}
 /* Make your p tag a different color and italic */
-
+p {color: rgb(116, 36, 237); font-style: italic;}
 /* Put a border around your image */
-
+.center {border: 6px solid rgb(48, 148, 235);
+    border-radius: 35px;}
 /* Change the font-family of your list */
+ul, h1, p {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}

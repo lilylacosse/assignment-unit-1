@@ -1,9 +1,9 @@
 /* Give your page a fun background color */
-
+body {background-color: rgb(190, 130, 246);}
 /* Make the header and footer a different color from the background */
-
+header, footer {background-color: rgb(130, 190, 243);}
 /* Align the h1 containing your name in the center of the header*/
-
+h1 {position: ;}
 /* Make your p tag a different color and italic */
 
 /* Put a border around your image */
